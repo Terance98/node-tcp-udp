@@ -1,4 +1,4 @@
-# TCP & UPD implemenatation in Node
+# TCP & UDP implemenatation in Node
 
 This is a boilerplate repository to test out the basic implementation of TCP and UDP protocols in Node.js
 
@@ -16,7 +16,6 @@ This is a boilerplate repository to test out the basic implementation of TCP and
 - Connection based : They sender and the recipient first needs to set up a connection. A stateful connection is maintained on both ends.
 - Congestion control : When the network is congested, it will wait till the network becomes free again to send the packets
 - Ordered packets : The data packets will be sent through different paths. One all the packets are recieved at the recipient end, the TCP will order it.
--
 
 ### Cons :
 
